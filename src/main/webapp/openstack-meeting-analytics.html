@@ -37,7 +37,7 @@ xmlhttp.send();
 }
 function myFunction()
 {
-loadXMLDoc("/assignment6/solum/meetings",function()
+loadXMLDoc("/assignment6/projects/meetings",function()
   {
   if (xmlhttp.readyState==4 && xmlhttp.status==200)
     {
@@ -66,7 +66,7 @@ loadXMLDoc("/assignment6/solum/meetings",function()
 
 <div id="myDiv">
 	<p>Welcome to OpenStack Solum Meeting Analytics</p>
-	<p>Click <a href= "javascript:myFunction()"> here </a> to see number of meetings for Solum OpenStack project</p>
+	<p>Click <a style="color:blue" onclick= "myFunction()"> here </a> to see number of meetings for Solum OpenStack project</p>
 </div>
 
 
